@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Lato&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*::-webkit-scrollbar{
+  width: 0px;
+}
+*::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+*::-webkit-scrollbar-thumb{
+  background-color: transparent;
+}
+.App{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color:#edeeeb;
+}
+.Footer{
+  padding: 10px 0px;
+  width: 100%;
+  color: #ffffff;
+  background-color:#3d3c3a;
+}
+.Footer .footer1{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5px;
+  gap: 10px;
+  font-size:clamp(15px,10px,.8rem);
+  font-weight: 500;
+}
+.Footer .footer2{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-weight: 500;
+  font-size:clamp(.9rem,8px,.7rem);
+}
+.Footer .copyrights{
+  padding-bottom: 8px;
+  text-align: center;
+  font-size:clamp(15px,10px,.7rem);
+  font-weight: 500;
+}
+.trending::-webkit-scrollbar{
+  width: 10px;
+}
+.trending::-webkit-scrollbar-track{
+  background-color: transparent;
+}
+.trending::-webkit-scrollbar-thumb{
+  width: 10px;
+  background-color: transparent;
+}
+.home h4{
+  padding:20px 10px;
+}
+.trending{
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  padding: 20px 15px;
+  overflow: scroll;
+}
+.trending .trend{
+  height: 220px;
+  width: 350px;
+  box-shadow:0px 0px 2px #b3b3b3,0px 0px 2px #ffffff;
+}
+.trending .trend a{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #1a1a1a;
+}
+.trending .trend a img{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  transition:all .1s ease-in-out;
+}
+.trending .trend a p{
+  width: 100%;
+  text-align: center;
+  padding-top: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+.trending .trend:hover img{
+  transform: scale(1.15);
+}
+.shoes{
+  width: 100%;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  font-family: 'Lato', sans-serif;
+}
+.shoes_data{
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow:1px 1px 3px #b3b3b3,-1px -1px 3px #ffffff;
+}
+.shoes_data:hover img{
+  transform: rotate(45deg);
+}
+.shoes_data img{
+  width: 80%;
+  height: 80%;
+  transition: all .5s ease-out;
+}
+.filter_data{
+  display: flex;
+}
+.filter{
+  width: 220px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-top: 30px;
+}
+.filter label{
+  width: 100px;
+  display: flex;
+  gap: 4px;
+  font-size: 20px;
+}
+.select{
+  cursor: pointer;
+  font-size: 25px;
+  width: 100px;
+  background-color:#55c2da;
+}
+input[type=checkbox]{
+  width: 30px;
+  height: 30px;
+}
+.Trending_page{
+  padding-top: 30px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.Product {
+  margin-bottom: 20px;
+  width: 90%;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  background-color:rgba(198, 198, 189, 0.428);
+  font-family: 'Lato', sans-serif;
+}
+.trending_site{
+  font-family: 'Lato', sans-serif;
+}
+.Product a .Product_images{
+  margin:0px 10px;
+  width: 250px;
+  height: 220px;
+}
+.Product a .Product_images img{
+  width: 100%;
+  height: 100%;
+}
+.Product .Product_name{
+  height: 65%;
+  width: 80%;
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  color: #111;
+}
+.mobile_price{
+  color: rgb(251, 6, 6);
+  font-weight: bold;
+  font-size:clamp(20px,1.5rem,2.5rem);
+}
+.btn-1{
+  width: 80%;
+  height: 35px;
+  outline: none;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: transparent;
+}
+@media screen and (max-width:660px) and (min-width:511px){
+  .shoes{
+    justify-content:center;
+  }
+  .Trending_page div{
+    width: 100%;
+  }
+  .filter_data{
+    flex-direction: column;
+  }
+  .Trending_page{
+      width:100%;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .filter{
+      padding: 0;
+      width: 100%;
+      height:60px;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .btn-1{
+      width: 150px;
+      height: 30px;
+    }
+  }
+  @media screen and (max-width:510px){
+  .Trending_page{
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+  .trending{
+    width: 100%;
+    justify-content: flex-start;
+    gap: 15px;
+  }
+  .trending .trend{
+    height: 160px;
+    width: 160px;
+    padding: 15px;
+  }
+  .trending .trend a img{
+    width: 100px;
+    height: 100px;
+  }
+  .shoes{
+    justify-content: center;
+  }
+  .shoes_data{
+    width: 170px;
+    height: 150px;
+  }
+  .filter_data{
+    flex-direction: column;
+  }
+  .filters{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 40px 0px 0px;
+  }
+  input[type=checkbox]{
+    width: 20px;
+    height: 20px;
+  }
+  .Product{
+    margin-bottom: 20px;
+    width: 90%;
+    height: 220px;
+  }
+  .Product a .Product_images{
+    width: 90%;
+    height: 150px;
+  }
+  .Product a .Product_images img{
+    width: 100%;
+    height: 100%;
+  }
+  .btn-1{
+    width: 90%;
+  }
+  .btn-2{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    width:80%;
+    height: 30px;
+    outline: none;
+    border: none;
+    font-size: clamp(20px,1rem,1.2rem);
+    background-color:#f0f0f0;
+  }
+   .filter_data .filter{
+    width: 100%;
+    justify-content: center;
+   }
+   .filter_data .filter p{
+     font-size: 25px;
+     font-weight: 600;
+   }
+  }
