@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 import "./Nav.css";
 import Navigation from "./Navigation.jsx";
 import {GiHamburgerMenu} from "react-icons/gi";
