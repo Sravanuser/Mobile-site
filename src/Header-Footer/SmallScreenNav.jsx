@@ -9,12 +9,14 @@ export default function SmallScreenNav(){
     const[open,setopen] = React.useState(false);
     const ham=<GiHamburgerMenu className="ham" size="35px" style={{color:"white"}} onClick={()=>setopen(!open)} />
     const cross=<RxCross1 className="cross" size="35px" onClick={()=>setopen(!open)}/>
-    const CloseMobileMenu=()=>setopen(false);
+    const CloseMobileMenu=()=>{
+        setopen(false);
+    }
     return(
         <div className="SmallScreen">
         <div className='SideNav'>
         {open ? cross : ham}
-        {open &&  <Navigation isMobile={true} CloseMobileMenu={CloseMobileMenu}/>}
+        {open &&  <Navigation CloseMobileMenu={CloseMobileMenu}/>}
         <p className="logo">Shopping-site</p>
         <BsCartPlusFill className="bs"/>
         </div>
