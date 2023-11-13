@@ -3,13 +3,10 @@ import "../Carousel-page/Carousel.css";
 import {Carousel} from "../Carousel-page/Carousel";
 import Slider from "../data/data.json";
 import Trending from "../data/data.json";
-import shoes from "../data/data.json";
 import { Link } from "react-router-dom";
 
 export default function Home(){
-    let Shoes=shoes.shoes;
     let trending_products=Trending.Trending;
-    console.log(trending_products);
     return(
         <div className="home">
         <Carousel data={Slider}/>

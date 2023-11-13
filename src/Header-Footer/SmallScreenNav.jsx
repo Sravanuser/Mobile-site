@@ -1,7 +1,6 @@
  import React from "react";
 import "./Nav.css";
 import Navigation from "./Navigation.jsx";
-import AddToCart from "../pages/AddToCart.jsx";
 import { useNavigate } from "react-router-dom";
 import {GiHamburgerMenu} from "react-icons/gi";
 import {RxCross1} from "react-icons/rx";
@@ -21,7 +20,7 @@ export default function SmallScreenNav(){
         {open ? cross : ham}
         {open &&  <Navigation CloseMobileMenu={CloseMobileMenu}/>}
         <p className="logo">Shopping-site</p>
-        <BsCartPlusFill className="bs" onClick={()=>navigate("AddTocart")}/>
+        <BsCartPlusFill className="bs"/>
         </div>
         <div className="input">
         <input type="search" placeholder='search for products and brands' name="search-bar"/>

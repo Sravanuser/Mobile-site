@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import App from './App';
 import Home from "./pages/Home.jsx";
 import Mobile from "./pages/Mobile.jsx";
-import AddToCart from "./pages/AddToCart.jsx";
 import Display from './data/display';
 import Displays from './data/Displays';
 import TrendingData from './data/TrendingData';
@@ -15,16 +14,14 @@ const Router=createBrowserRouter(
     <Route path='/' element={<App/>} >
     <Route path='' element={<Home/>} />
     <Route path='Mobile' element={<Mobile/>}/>
-    <Route path='AddToCart' element={<AddToCart/>} />
     <Route path=':id' element={<Display/>}/>
     <Route path='Mobile/:id' element={<Displays/>}/>
     <Route path='Trending' element={<Trending_page/>}/>
     <Route path='Trending/:id' element={<TrendingData/>}/>
     </Route>
-  )
-)
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <RouterProvider router={Router} />
+    )
+    )
+    const root = ReactDOM.createRoot(document.getElementById('root'));
+    root.render(
+      <RouterProvider router={Router} />
 );

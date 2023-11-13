@@ -4,9 +4,9 @@ import { useParams } from 'react-router-dom';
 import Trending from "./data.json";
 
 export default function TrendingData() {
-    let params=useParams().id;
-    const Data=Trending.Trending;
-    const data=Data[params];
+  let params=useParams().id;
+  const Data=Trending.Trending;
+  const data=Data[params];
   return (
     <div className='display_data'>
     <div className='display'>

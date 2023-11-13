@@ -13,7 +13,6 @@ export default function Trending_page() {
   const handleCheckBox=(e)=>{
     const value=e.target.value;
     setselectedOptions((prevselected)=>{
-      console.log(prevselected);
       if(prevselected.includes(value)){
         return prevselected.filter((option) => option !== value);
       }

@@ -4,9 +4,10 @@ import { useParams } from 'react-router-dom';
 import Mobiles from "../data/data.json";
 
 export default function Displays() {
-    let params=useParams().id;
+  let params=useParams().id;
     const Data=Mobiles.Mobiles;
     const data=Data[params];
+    console.log(params);
   return (
     <div className='display_data'>
     <div className='display'>
@@ -23,7 +24,7 @@ export default function Displays() {
     <p className='bran'>{data.Battery}</p>
     <p className='bran'>{data.Storage}</p>
     <p className='bran'>{data.Connectortype}</p>
-    <button class="button-85" role="button">Add to cart</button>
+    <button className="button-85" role="button">Add to cart</button>
     </div>
     </div>
     </div>
