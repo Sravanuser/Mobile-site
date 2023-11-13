@@ -29,16 +29,18 @@ export default function Home(){
             }) : <p>Data not found</p>
         }
         </div>
-        <h4 className="trending_site">shoes</h4>
+        <h4 className="trending_site">Mostly viewed</h4>
         <hr/>
-        <br/>
-        <div className="shoes">
+        <div className="trending">
         {
-            Shoes != [] ? Shoes.map((item,index)=>{
+            trending_products != [] ? trending_products.map((item,index)=>{
                 return(
-                    <div key={index} className="shoes_data">
-                    <img src={item.src}/>
-                    </div>
+                <div className="trend" key={index}>
+                <Link to="/Trending">
+                <img src={item.src} alt={item.alt} />
+                <p>{item.name}</p>
+                </Link>
+                </div>
                 )
             }) : <p>Data not found</p>
         }
