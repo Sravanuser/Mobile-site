@@ -1,12 +1,13 @@
 import React from "react";
 import "../Carousel-page/Carousel.css";
 import {Carousel} from "../Carousel-page/Carousel";
-import Slider from "../data/data.json";
-import Trending from "../data/data.json";
+import MobileData from "../data/data.json";
 import { Link } from "react-router-dom";
 
 export default function Home(){
-    let trending_products=Trending.Trending;
+    const TrendingData = MobileData.MobilesData;
+    const filterData = TrendingData.filter(item =>item.ui.includes('Trending'));
+    const Slider = TrendingData.filter(item =>item.ui.includes('slider'));
     return(
         <div className="home">
         <Carousel data={Slider}/>
@@ -14,32 +15,32 @@ export default function Home(){
         <hr/>
         <div className="trending">
         {
-            trending_products != [] ? trending_products.map((item,index)=>{
+                filterData.map((item,index)=>{
                 return(
                 <div className="trend" key={index}>
-                <Link to="/Trending">
+                <Link to={`${item.id}`}>
                 <img src={item.src} alt={item.alt} />
                 <p>{item.name}</p>
                 </Link>
                 </div>
                 )
-            }) : <p>Data not found</p>
+            })
         }
         </div>
         <h4 className="trending_site">Mostly viewed</h4>
         <hr/>
         <div className="trending">
         {
-            trending_products != [] ? trending_products.map((item,index)=>{
+            filterData.map((item,index)=>{
                 return(
                 <div className="trend" key={index}>
-                <Link to="/Trending">
+                <Link to={`${item.id}`}>
                 <img src={item.src} alt={item.alt} />
                 <p>{item.name}</p>
                 </Link>
                 </div>
                 )
-            }) : <p>Data not found</p>
+            })
         }
         </div>
         <br/>

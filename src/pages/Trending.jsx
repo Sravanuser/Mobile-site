@@ -12,7 +12,7 @@ export default function Trending_page() {
       trending.map((item,id)=>{
         return(
           <div key={id} className='Product'>
-          <Link to={`${id}`}>
+          <Link to={`${item.id}`}>
           <div className='Product_images'>
             <img src={item.src} />
         </div>

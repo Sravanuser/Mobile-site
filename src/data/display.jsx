@@ -4,9 +4,8 @@ import { useParams } from 'react-router-dom';
 import Slider from "../data/data.json";
 
 export default function Display() {
-  const {cartItems,addToCart} = useContext(CartContext);
     let params=useParams().id;
-    const Data=Slider.Slider;
+    const Data=Slider.MobilesData;
     const data=Data[params];
   return (
     <div className='display_data'>

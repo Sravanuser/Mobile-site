@@ -1,10 +1,12 @@
 {
-    "Slider":[
+    "MobilesData":[
         {
+        "id":0,
         "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtOgchIQAKyGYTe-p7zXZFQvJ-AMZjdgC9xpamt25B0briN1kJ&s",
-        "name":"Redmi Note 11T 5G (Stardust White, 8GB RAM, 128GB ROM) | Dimensity 810 5G | 33W Pro Fast Charging | Charger Included",
+        "name":"Redmi Note 11T 5G (Stardust White, 8GB RAM, 128GB ROM)",
         "brand":"Redmi",
         "alt":"iamge1",
+        "ui":"slider",
         "price":"₹17,248",
         "Processor": "MediaTek Dimensity 810 Octa-core 5G processor based on 6nm process with HyperEngine 2.0 and clock speed up to 2.4GHz",
         "Display":"6.6 inch FHD+ (2400x1080) Dot display with 90Hz high refresh rate and adaptive refresh rate technology; 240Hz touch sampling rate",
@@ -13,9 +15,11 @@
         "Storage":"8GB LPDDR4X RAM | 128GB UFS2.2 Internal storage",
         "Connectortype":"usb type c",
         "images":["https://m.media-amazon.com/images/I/71hwZfOz3bL._SX679_.jpg"]
-        },
-        {
+    },
+    {
+        "id":1,
         "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOrA1vDEN7b17laa_GwaaWw8F3-duKV3BmJb23scboF96tQkw&s",
+        "ui":"slider",
         "alt":"iamge2",
         "name":"realme 9 (Meteor Black,6GB RAM, 128GB Storage)",
         "Brand":"Realme",
@@ -26,11 +30,12 @@
         "Storage":"6 GB RAM | 128 GB ROM | Expandable Upto 256 GB",
         "Display":"108MP + 8MP + 2MP | 16MP Front Camera",
         "Processor":"Qualcomm Snapdragon 680 Processor"
-        },
-        {
+    },
+    {
+        "id":2,
         "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4MtEYxrHbfuGXpMRZGcUlhRuxDUQIK8QNz9nWRl_vES_uLn8e&s",
         "alt":"iamge3",
-        "name":"Redmi Note 9 Pro Max (Aurora Blue, 6GB RAM, 64GB Storage)- 64MP Quad Camera & Latest 8nm S",
+        "name":"Redmi Note 9 Pro Max",
         "brand":"Redmi",
         "price":"₹18,999",
         "Storage":"64 GB",
@@ -38,24 +43,27 @@
         "Display":"16.9418 centimeters (6.67-inch) FHD+ LCD full screen dot display multi-touch capacitive touchscreen with 2400 x 1080 pixels resolution, 400 ppi pixel density and 20:9 aspect ratio | 2.5D curved glass",
         "Processor":"Qualcomm Snapdragon 720G with 8nm octa core processor",
         "Battery":"5000mAh battery with 33W Pro fast charging support",
+        "Connectortype":"usb type c",
+        "ui":"slider"
+    },
+    {
+        "id":3,
+        "ui":"slider",
+        "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOaVLPcLV5V8Qkn-9waelhb7LkfV5lqCVq_fB106WF1jlU7Ilb&s",
+        "alt":"iamge4",
+        "name":"Oppo Reno10 Pro 5G (Silvery Grey, 256 GB)",
+        "price":"₹44,999",
+        "brand":"Oppo",
+        "Storage":"12 GB RAM | 256 GB ROM",
+        "Camera":"50MP + 32MP + 8MP | 32MP Front Camera",
+        "Processor":"Snapdragon 778G 5G Processor",
+        "Battery":"5000mAh battery with 33W Pro fast charging support",
+        "Display":"16.9418 centimeters (6.67-inch) FHD+ LCD full screen dot display multi-touch capacitive touchscreen with 2400 x 1080 pixels resolution, 400 ppi pixel density and 20:9 aspect ratio | 2.5D curved glass",
         "Connectortype":"usb type c"
         },
         {
-            "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOaVLPcLV5V8Qkn-9waelhb7LkfV5lqCVq_fB106WF1jlU7Ilb&s",
-            "alt":"iamge4",
-            "name":"Oppo Reno10 Pro 5G (Silvery Grey, 256 GB) (12 GB RAM)",
-            "price":"₹44,999",
-            "brand":"Oppo",
-            "Storage":"12 GB RAM | 256 GB ROM",
-            "Camera":"50MP + 32MP + 8MP | 32MP Front Camera",
-            "Processor":"Snapdragon 778G 5G Processor",
-            "Battery":"5000mAh battery with 33W Pro fast charging support",
-            "Display":"16.9418 centimeters (6.67-inch) FHD+ LCD full screen dot display multi-touch capacitive touchscreen with 2400 x 1080 pixels resolution, 400 ppi pixel density and 20:9 aspect ratio | 2.5D curved glass",
-            "Connectortype":"usb type c"
-        }
-    ],
-    "Mobiles":[
-        {
+            "id":4,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8NnELiKrTZA4i4C7ILlAucarrj6zt6soyVZggDC921ZX-N8Q&s",
             "name":"I phone 11 (128GB)",
             "type":"Mobile",
@@ -69,6 +77,8 @@
             "Display":"6.1 inches (15.49 cm) IPS LCD 828x1792 px (324 PPI) 60 Hz Refresh Rate Bezel-less with notch"
         },
         {
+            "id":5,
+            "ui":"normal",
             "src":"https://th.bing.com/th/id/OIP.3xnJpk2spvV07A6WEdE2UQHaIa?w=163&h=185&c=7&r=0&o=5&dpr=1.3&pid=1.7",
             "name":"I phone 11 pro max",
             "type":"Mobile",
@@ -82,6 +92,8 @@
             "Display":"Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak) Size 6.5 inches, 102.9 cm2 (~83.7% screen-to-body ratio) Resolution 1242 x 2688 pixels, 19.5:9 ratio (~458 ppi density) Protection Scratch-resistant glass"
         },
         {
+            "id":6,
+            "ui":"normal",
             "src":"https://th.bing.com/th/id/OIP.CV4ju15l70VBl3VHxE8Z6wHaHa?w=173&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7",
             "name":"I phone 12",
             "alt":"mobile-image",
@@ -96,6 +108,8 @@
             
         },
         {
+            "id":57,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi3LuMucBxiXz0M2_yWRRr37T0GcWZDpDAFzIT4mDoeZXi_b4&s",
             "name":"I phone 12 pro max",
             "type":"Mobile",
@@ -110,6 +124,8 @@
             
         },
         {
+            "id":8,
+            "ui":"normal",
             "src":"https://th.bing.com/th/id/OIP.V_M3E6rGGHhAm1gZF4DdBQHaHa?w=190&h=190&c=7&r=0&o=5&dpr=1.3&pid=1.7",
             "name":"I phone 14",
             "type":"Mobile",
@@ -123,6 +139,8 @@
             "Display":"Super Retina XDR OLED, HDR10, Dolby Vision, 800 nits (HBM), 1200 nits (peak) Size 6.5 inches, 102.9 cm2 (~83.7% screen-to-body ratio) Resolution 1242 x 2688 pixels, 19.5:9 ratio (~458 ppi density) Protection Scratch-resistant glass"
         },
         {
+            "id":9,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDbpHzO9DVl2E421EK7HUL4TVjiJZMInHXUstmGUDKoE6-K1A&s",
             "name":"I phone 14 pro max",
             "type":"Mobile",
@@ -136,6 +154,8 @@
             "Display":"LTPO Super Retina XDR OLED, 120Hz, HDR10, Dolby Vision, 1000 nits (typ), 2000 nits (HBM)6.7 inches, 110.2 cm2 (~88.3% screen-to-body ratio) 1290 x 2796 pixels, 19.5:9 ratio (~460 ppi density) Ceramic Shield glass Always-On display"
         },
         {
+            "id":10,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_rq9M8091RtI-yWbqqomVmGQM-CTlx_-IsxcaPRnaAw4W9Dt5&s",
             "name":"Redmi 12",
             "type":"Mobile",
@@ -149,6 +169,8 @@
             "Display":"The Redmi 12 features a 6.79-inch IPS LCD with 90Hz refresh rate and 1080 x 2460px resolution"
         },
         {
+            "id":11,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQcOHXGXpI6_3fFb4dWmMxK9yAr_lly_-2cXP0g8DO1DBiNLo&s",
             "name":"Redmi 13 pro",
             "type":"Mobile",
@@ -162,6 +184,8 @@
             "Display":"IPS LCD, 90Hz, 550 nits (peak) 6.79 inches, 109.5 cm2 (~85.1% screen-to-body ratio) 1080 x 2460 pixels (~396 ppi density)"
         },
         {
+            "id":12,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqu0CXcYQ5OVSMx4prXSRAgxDYOPLyPo1kHtEYWNLK0-blqrk&s",
             "name":"Redmi Note 13 pro+",
             "type":"Mobile",
@@ -175,6 +199,8 @@
             "Display":"OLED, 68B colors, 120Hz, Dolby Vision, HDR10+, 1800 nits (peak) 6.67 inches, 107.4 cm2 (~89.7% screen-to-body ratio) 1220 x 2712 pixels, 20:9 ratio (~446 ppi density) Gorilla Glass Victus"
         },
         {
+            "id":13,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS93cFnmZioyian1I9YrgifvLd1rY9YcPzKvosjzqRLjmMb2_4&s",
             "name":"Redmi Note 12",
             "type":"Mobile",
@@ -188,6 +214,8 @@
             "Display":"The Redmi Note 12 Pro employs a 6.67-inch Flow AMOLED screen of extended 1080p resolution (395ppi). It has a small perforation to make way for the selfie camera and Gorilla Glass 5 protection. According to the official specs, the OLED should be the same as on the Redmi Note 12 Pro+."
         },
         {
+            "id":14,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoNaEqkhvwVfenOPnCEXxkjbV1_jV_ePp83czW_7E6wDpy4vg&s",
             "name":"Samsung Galaxy S21 FE 5G",
             "type":"Mobile",
@@ -201,6 +229,8 @@
             "Display":"The Samsung Galaxy S21 FE 5G has a 6.4-inch Dynamic AMOLED 2X display - an update over the S20 FE's 6.5 Super AMOLED. It still has the usual 1,080 x 2,400 px resolution (411ppi), supports a 120Hz refresh rate and Always-on features. The touch sampling rate when using Game Mode is 240Hz, otherwise, it should be 120Hz"
         },
         {
+            "id":15,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSnvAUJyLMUPFlLNodzzrLh4hqZYhhFx9DR-DMT_N7Br1DPrnA1&s",
             "name":"Samsung Galaxy A54",
             "type":"Mobile",
@@ -214,6 +244,8 @@
             "Display":"Galaxy A54 comes with a slightly smaller display - not that the move from a 6.5-inch to a 6.4-inch diagonal would be noticeable outside of spec sheet comparisons. It's still a 1080p OLED panel (1,080x2,340px resolution, 19.5:9 aspect, 403 ppi pixel density), and it maintains the 120Hz refresh rate with some adaptive capability"
         },
         {
+            "id":16,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREBMrHLcMguP2K9Vpx-f3B8R-ZVhVUJAoLyoNp9e_uACW_ixN6&s",
             "name":"Samsung Galaxy Note 10",
             "type":"Mobile",
@@ -227,6 +259,8 @@
             "Display":"The Galaxy Note10, compact as it may be, has a 6.3-inch display with a surface area almost the size of the Note8's - a bigger phone in every direction. It's got a 2280x1080px resolution,"
         },
         {
+            "id":17,
+            "ui":"normal",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZArnYpZwN9bvogRfXgYmWfMMF5nI53FitVMpSrcfgOLuMMBE&s",
             "name":"Samsung Galaxy A73 5G",
             "type":"Mobile",
@@ -238,38 +272,10 @@
             "Processor":"Qualcomm SM7325 Snapdragon 778G 5G (6 nm)",
             "Battery":"Li-Po 5000 mAh, non-removable",
             "Display":"Super AMOLED Plus, 120Hz, 800 nits (HBM)"
-        }
-    ],
-    "Laptop":[
+        },      
         {
-            "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGTIPlo663em0FbPcXlUM12dmYXgF2RRM1aa3XJbDFSJ0Km5bx&s",
-            "name":"Apple 13-inch macBook pro",
-            "type":"Laptop",
-            "price":"₹1,18,000",
-            "alt":"laptop_image",
-            "brand":"Brand : Apple",
-            "Processor":"1.6GHz dual-core Intel Core i5 (Turbo Boost up to 2.7GHz) with 3MB shared L3 cache   Configurable to 2.2GHz dual-core Intel Core i7 (Turbo Boost up to 3.2GHz) with 4MB shared L3 cache.",
-            "Storage":"128 GB, 256 GB (configurable to 512 GB)",
-            "Camera":"720p FaceTime HD camera",
-            "Battery":"Up to 12 hours wireless web Up to 12 hours iTunes movie playback Up to 30 days standby time Built-in 54‑watt‑hour lithium‑polymer battery 45W MagSafe 2 Power Adapter with cable management; MagSafe 2 power port",
-            "Display":"13.3-inch (diagonal) LED-backlit glossy widescreen display with support for millions of colors 1440 by 900 (native), 1280 by 800, 1152 by 720, and 1024 by 640 pixels at 16:10 aspect ratio and 1024 by 768 and 800 by 600 pixels at 4:3 aspect ratio"
-        },
-        {
-            "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiPZY5-p7AifgPAr1yqaaYMeRhpcyvo0KtM82K0UTwaiD_N_9U&s",
-            "name":"Apple 14-inch macBook pro",
-            "type":"Laptop",
-            "price":"₹1,99,900",
-            "alt":"laptop_image",
-            "brand":"Brand : Apple",
-            "Processor":"Apple M2 Pro 10-core CPU with 6 performance cores and 4 efficiency cores 16-core GPU 16-core Neural Engine 200GB/s memory bandwidth",
-            "Storage":"16 GB Unified Memory RAM,512 GB SSD ROM",
-            "Camera":"12 Megapixels",
-            "Battery":"Up to 18 hours Apple TV app movie playback Up to 12 hours wireless web 70-watt-hour lithium-polymer battery3 67W USB-C Power Adapter (included with M2 Pro with 10‑core CPU) 96W USB-C Power Adapter (included with M2 Pro with 12‑core CPU or M2 Max, configurable with M2 Pro with 10‑core CPU) USB-C to MagSafe 3 Cable Fast-charge capable with 96W USB‑C Power Adapter",
-            "Display":"14.2-inch (diagonal) Liquid Retina XDR display;1 3024-by-1964 native resolution at 254 pixels per inch"
-        }
-    ],
-    "Trending":[
-        {
+            "id":18,
+            "ui":"Trending",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrfjQZ9Ak_8P7kf2Y_JSeSh5WhH_Vog72Xh0VIBzKfwtLClsM&s",
             "name":"I phone 15 pro max",
             "type":"Mobile",
@@ -284,6 +290,8 @@
             "Dimensions":"159.9 x 76.7 x 8.3 mm (6.30 x 3.02 x 0.33 in) Weight 221 g (7.80 oz)"
         },
         {
+            "id":19,
+            "ui":"Trending",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiwlfdJwmIjZ-FA5Jgt-G3dzndjmomFE1AGfiTgkMtHBSmTPQk&s",
             "name":"Samsung s23 ultra",
             "type":"Mobile",
@@ -298,6 +306,8 @@
             "Dimensions":"163.4 x 78.1 x 8.9 mm (6.43 x 3.07 x 0.35 in)"
         },
         {
+            "id":20,
+            "ui":"Trending",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUat3oLbXatLKgJuKMYN3ep5d718iVTFaVI2duVD__HJC1qgq4&s",
             "name":"Redmi note 12 pro+",
             "type":"Mobile",
@@ -312,6 +322,8 @@
             "Dimensions":"162.9 x 76 x 8.9 mm (6.41 x 2.99 x 0.35 in)"
         },
         {
+            "id":21,
+            "ui":"Trending",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXXlJrT0t-uOPz79FHiw2q47_g6YwNOYc32z8_PR8tK9GOTO2x&s",
             "name":"iq00 neo 7 pro",
             "type":"Mobile",
@@ -326,6 +338,8 @@
             "Dimensions":"162.9 x 76 x 8.9 mm (6.41 x 2.99 x 0.35 in)"
         },
         {
+            "id":22,
+            "ui":"Trending",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqzYih-6d3R0Jqm7gwCJpMBClKwKvvJaka7b2zglPYPCLo5gk&s",
             "name":"Motorola Razr 40 Ultra",
             "type":"Mobile",
@@ -340,6 +354,8 @@
             "Dimensions":"Unfolded: 170.8 x 74 x 7 mm , Folded: 88.4 x 74 x 15.1 mm"
         },
         {
+            "id":23,
+            "ui":"Trending",
             "src":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbi5l9whSjpLNL6TCJwHT0KNnypknMKvc6ojmILv639G-VOojR&s",
             "name":"OnePlus 11R",
             "type":"",

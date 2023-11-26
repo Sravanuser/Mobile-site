@@ -1,9 +1,10 @@
 import { Fragment, useState } from 'react';
-import data from "../data/data.json";
+import MobileData from "../data/data.json";
 import { Link } from 'react-router-dom';
 
 export default function Trending_page() {
-  const Mobiles=data.Mobiles;
+  const Mobiles=MobileData.MobilesData;
+  console.log(Mobiles);
   const[selectedOptions,setselectedOptions]=useState([]);
   const[open,setopen]=useState(false);
   function show(e){

@@ -5,7 +5,7 @@ import {BsFillArrowLeftCircleFill} from "react-icons/bs";
 import {BsFillArrowRightCircleFill} from "react-icons/bs";
 
 export function Carousel({data}) {
-  let Data=data.Slider;
+  let Data=data;
   const[slide,setslide]=React.useState(0);
   const nextSlide=()=>{
     setslide(slide===Data.length-1 ? 0 : slide+1);
@@ -28,7 +28,7 @@ export function Carousel({data}) {
       Data.map((item,id)=>{
         return(
           <div className='slide' key={id}>
-          <Link to={`${id}`}>
+          <Link to={`${item.id}`}>
           <img src={item.src} alt={item.alt} className={slide===id ? "images" : "images images-hidden"}/>
           </Link>
           </div>
