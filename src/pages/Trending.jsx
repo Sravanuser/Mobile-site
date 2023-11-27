@@ -20,7 +20,7 @@ export default function Trending_page() {
         <div className='Product_name'>
           <h4 className='mobile_name'>{item.name}</h4>
           <p className='mobile_price'>{item.price}</p>
-          <button class="btn-1" role="button" onClick={()=>navigate(`${id}`)}>See More</button>
+          <button className="btn-1" role="button" onClick={()=>navigate(`${id}`)}>See More</button>
           </div>
           </div>
         )

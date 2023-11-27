@@ -11,7 +11,7 @@ export default function Home(){
     return(
         <div className="home">
         <Carousel data={Slider}/>
-        <h4 class="trending_site">Trending in Shopping site</h4>
+        <h4 className="trending_site">Trending in Shopping site</h4>
         <hr/>
         <div className="trending">
         {

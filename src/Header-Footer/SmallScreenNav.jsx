@@ -20,7 +20,7 @@ export default function SmallScreenNav(){
         {open ? cross : ham}
         {open &&  <Navigation CloseMobileMenu={CloseMobileMenu}/>}
         <p className="logo">Shopping-site</p>
-        <BsCartPlusFill className="bs"/>
+        <BsCartPlusFill className="bs" onClick={()=>navigate('/AddToCart')}/>
         </div>
         <div className="input">
         <input type="search" placeholder='search for products and brands' name="search-bar"/>
